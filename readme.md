@@ -5,8 +5,8 @@ StoreLocator Bundle
 About
 -----
 
-This Bundle provides a backend interface to create "Stores" you can specify a name, address and click on a google map
-to select the coordinates
+This Bundle provides a backend interface to create "Stores", for which you can specify a name, address and click on a google map
+to determine the coordinates for the location. Then it provides a very basic frontend view view to search for stores.
 
 
 Install 
@@ -33,9 +33,9 @@ then run `composer up`
 2) Add to AppKernel.php
 
     ...
-            new \Frank\StoreLocatorBundle\FrankStoreLocatorBundle(),
+        new Frank\StoreLocatorBundle\FrankStoreLocatorBundle(),
     ...
-    
+
 3) load default routing
     
     frank_store_locator:
