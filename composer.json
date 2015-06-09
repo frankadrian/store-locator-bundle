@@ -1,0 +1,15 @@
+{
+    "name": "frankadrian/store-locator-bundle",
+    "authors": [
+        {
+            "name": "Frank Adrian",
+            "email": "frankwebdevelopment@gmail.com"
+        }
+    ],
+    "require": {
+        "beberlei/DoctrineExtensions": "~1.0"
+    },
+    "autoload": {
+        "psr-4": { "Frank\\": "" }
+    }
+}
