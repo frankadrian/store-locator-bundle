@@ -10,6 +10,6 @@
         "beberlei/DoctrineExtensions": "~1.0"
     },
     "autoload": {
-        "psr-4": { "Frank\\": "" }
+        "psr-4": { "Frank\\StoreLocatorBundle\\": "" }
     }
 }
