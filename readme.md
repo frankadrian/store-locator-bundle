@@ -44,7 +44,7 @@ then run `composer up`
         prefix:   /
 
 4) Update database
-    
+        
     app/console  doctrine:schema:update  --force
     
 5) start server 

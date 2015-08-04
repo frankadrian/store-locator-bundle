@@ -33,7 +33,7 @@ class StoreController extends Controller
     {
 
         $lat  = $request->get('lat');
-        $long  = $request->get('long');
+        $long  = $request->get('lng');
         $radius  = $request->get('radius');
 
         $em = $this->getDoctrine()->getManager();
